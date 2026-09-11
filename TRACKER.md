@@ -20,9 +20,9 @@ This document tracks all core Data Structures and Algorithms planned and impleme
 
 | Category | Total Topics | 🔥 High Priority | Completed | In Progress | Not Started | Overall Progress |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Data Structures** | 23 | 15 | 6 | 0 | 17 | `26%` |
+| **Data Structures** | 23 | 15 | 8 | 0 | 15 | `35%` |
 | **Algorithms** | 30 | 17 | 0 | 0 | 30 | `0%` |
-| **Overall** | **53** | **32** | **6** | **0** | **47** | **`11%`** |
+| **Overall** | **53** | **32** | **8** | **0** | **45** | **`15%`** |
 
 ---
 
@@ -62,8 +62,8 @@ This document tracks all core Data Structures and Algorithms planned and impleme
 ### 1.4 Heaps & Priority Queues
 | Status | Priority | Data Structure | Package / Location | Key Operations / Interview Notes |
 | :---: | :---: | :--- | :--- | :--- |
-| ⬜ | `🔥 High` | **Min Heap (Array based)** | `ds_07_heap_priority_queue/MinHeap.java` | Array representation, heapify-up/down, extractMin; Top-K problems |
-| ⬜ | `🔥 High` | **Max Heap (Array based)** | `ds_07_heap_priority_queue/MaxHeap.java` | Array representation, heapify-up/down, extractMax; Median of stream |
+| ✅ | `🔥 High` | **Min Heap (Array based)** | [`ds_07_heap_priority_queue/MinHeap.java`](ds_07_heap_priority_queue/MinHeap.java) | Array representation, heapify-up/down, extractMin; Top-K problems |
+| ✅ | `🔥 High` | **Max Heap (Array based)** | [`ds_07_heap_priority_queue/MaxHeap.java`](ds_07_heap_priority_queue/MaxHeap.java) | Array representation, heapify-up/down, extractMax; Median of stream |
 | ✅ | `🔥 High` | **Min Priority Queue (Array based)** | [`ds_07_heap_priority_queue/MinPriorityQueue.java`](ds_07_heap_priority_queue/MinPriorityQueue.java) | Heap-backed priority queue; core for Dijkstra & Greedy interval problems |
 | ✅ | `🔥 High` | **Linked Min Priority Queue (Tree based)** | [`ds_07_heap_priority_queue/LinkedMinPriorityQueue.java`](ds_07_heap_priority_queue/LinkedMinPriorityQueue.java) | Node-based tree representation with parent/child links; siftUp/siftDown |
 

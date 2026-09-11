@@ -33,6 +33,8 @@ dsa-java-implementation/
 ├── ds_06_tree/                        # Binary Tree, BST, AVL, Trie, Segment Tree
 ├── ds_07_heap_priority_queue/        # Min-Heap, Max-Heap, Priority Queue
 │   ├── LinkedMinPriorityQueue.java
+│   ├── MaxHeap.java
+│   ├── MinHeap.java
 │   └── MinPriorityQueue.java
 ├── ds_08_advanced/                    # Disjoint Set Union (DSU), LRU/LFU Cache
 ├── algo_01_search/                    # Linear, Binary, Rotated Search
@@ -53,8 +55,10 @@ dsa-java-implementation/
 | **Stack** | `ds_03_stack` | `push`, `pop`, `peek`, `size`, `isEmpty` | Last-In-First-Out (LIFO) stack implemented using linked nodes with $O(1)$ operations. |
 | **Queue** | `ds_04_queue` | `push` (enqueue), `pop` (dequeue), `peek`, `size`, `isEmpty` | First-In-First-Out (FIFO) queue implemented using linked nodes maintaining head and tail references. |
 | **Hash Map** | `ds_05_hashMap` | `put`, `get`, `remove`, `containsKey`, `size` | Array-of-buckets hash table using separate chaining for collision resolution with custom hash calculation. |
+| **Min Heap** | `ds_07_heap_priority_queue` | `insert`, `poll`, `peek`, `size`, `isEmpty` | Complete binary min-heap implemented in an array with dynamic resizing and index-based heapify. |
+| **Max Heap** | `ds_07_heap_priority_queue` | `insert`, `poll`, `peek`, `size`, `isEmpty` | Complete binary max-heap implemented in an array with dynamic resizing and index-based heapify. |
+| **Min Priority Queue** | `ds_07_heap_priority_queue` | `insert`, `extractMin`, `peek`, `size`, `isEmpty` | Dynamic array-backed binary min-heap priority queue storing (priority, value) entries with $O(\log N)$ operations. |
 | **Linked Min Priority Queue** | `ds_07_heap_priority_queue` | `insert`, `extractMin`, `peek`, `size`, `isEmpty` | Tree/node-based pointer implementation of a min priority queue with parent and child links. |
-| **Min Priority Queue** | `ds_07_heap_priority_queue` | `insert`, `extractMin`, `peek`, `size`, `isEmpty` | Dynamic array-backed binary min-heap priority queue with $O(\log N)$ operations. |
 
 ---
 
