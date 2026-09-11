@@ -40,6 +40,7 @@ dsa-java-implementation/
 ├── algo_01_search/                    # Linear, Binary, Rotated Search
 ├── algo_02_sort/                      # Merge, Quick, Heap, Counting Sort
 ├── algo_03_graph/                     # BFS, DFS, Dijkstra, TopoSort, MST
+│   └── DijkstraAlgorithm.java
 ├── algo_04_dp/                        # Knapsack, LCS, LIS, Coin Change
 ├── algo_05_backtracking/              # N-Queens, Sudoku, Subsets & Permutations
 └── README.md
@@ -62,6 +63,14 @@ dsa-java-implementation/
 
 ---
 
+## ⚡ Implemented Algorithms
+
+| Algorithm | Category | Package | Time Complexity | Space Complexity | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Dijkstra's Algorithm** | Graph | `algo_03_graph` | $O((V + E) \log V)$ | $O(V + E)$ | Single-source shortest path for non-negative weighted graphs using min-heap priority queue. |
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -76,16 +85,22 @@ dsa-java-implementation/
    cd dsa-java-implementation
    ```
 
-2. **Compile a data structure:**
+2. **Compile an implementation:**
    ```bash
    # Example: Compiling Singly Linked List
    javac ds_02_linkedList/SinglyLinkedList.java
+
+   # Example: Compiling Dijkstra's Algorithm
+   javac algo_03_graph/DijkstraAlgorithm.java
    ```
 
 3. **Run the implementation:**
    ```bash
-   # Example: Executing the main driver method
+   # Example: Executing Singly Linked List
    java ds_02_linkedList.SinglyLinkedList
+
+   # Example: Executing Dijkstra's Algorithm
+   java algo_03_graph.DijkstraAlgorithm
    ```
 
 ---
@@ -95,7 +110,7 @@ dsa-java-implementation/
 - [ ] **Trees**: Binary Tree, Binary Search Tree (BST), AVL Tree, Trie, Segment Tree
 - [ ] **Heaps**: Min-Heap, Max-Heap, Priority Queue
 - [ ] **Disjoint Set**: Union-Find (Disjoint Set Union)
-- [ ] **Graphs**: Adjacency List/Matrix, BFS, DFS, Dijkstra's, Topological Sort
+- [ ] **Graphs**: Adjacency List/Matrix, BFS, DFS, Dijkstra's (Done), Topological Sort
 - [ ] **Sorting Algorithms**: Merge Sort, Quick Sort, Heap Sort, Counting Sort
 - [ ] **Searching Algorithms**: Binary Search variants
 - [ ] **Advanced Algorithms**: Dynamic Programming, Greedy, Backtracking, Divide & Conquer

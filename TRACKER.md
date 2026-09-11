@@ -21,8 +21,8 @@ This document tracks all core Data Structures and Algorithms planned and impleme
 | Category | Total Topics | 🔥 High Priority | Completed | In Progress | Not Started | Overall Progress |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Data Structures** | 23 | 15 | 8 | 0 | 15 | `35%` |
-| **Algorithms** | 30 | 17 | 0 | 0 | 30 | `0%` |
-| **Overall** | **53** | **32** | **8** | **0** | **45** | **`15%`** |
+| **Algorithms** | 30 | 17 | 1 | 0 | 29 | `3%` |
+| **Overall** | **53** | **32** | **9** | **0** | **44** | **`17%`** |
 
 ---
 
@@ -102,7 +102,7 @@ This document tracks all core Data Structures and Algorithms planned and impleme
 | ⬜ | `🔥 High` | **Breadth-First Search (BFS)** | `algo_03_graph/GraphBFS.java` | $O(V + E)$ | Shortest path in unweighted graphs, level-order processing |
 | ⬜ | `🔥 High` | **Depth-First Search (DFS)** | `algo_03_graph/GraphDFS.java` | $O(V + E)$ | Connected components, cycle detection, path finding |
 | ⬜ | `🔥 High` | **Cycle Detection (Directed & Undirected)** | `algo_03_graph/CycleDetection.java` | $O(V + E)$ | Visited states (0/1/2 or white/gray/black), parent tracking, DSU |
-| ⬜ | `🔥 High` | **Dijkstra's Algorithm** | `algo_03_graph/Dijkstra.java` | $O((V + E) \log V)$ | Single-source shortest path (non-negative weights) using min-heap |
+| ✅ | `🔥 High` | **Dijkstra's Algorithm** | [`algo_03_graph/DijkstraAlgorithm.java`](algo_03_graph/DijkstraAlgorithm.java) | $O((V + E) \log V)$ | Single-source shortest path (non-negative weights) using min-heap |
 | ⬜ | `⭐ Medium` | **Bellman-Ford Algorithm** | `algo_03_graph/BellmanFord.java` | $O(V \cdot E)$ | Shortest path with negative weights, negative cycle detection |
 | ⬜ | `⭐ Medium` | **Floyd-Warshall Algorithm** | `algo_03_graph/FloydWarshall.java` | $O(V^3)$ | All-pairs shortest path dynamic programming |
 | ⬜ | `⭐ Medium` | **Prim's Algorithm** | `algo_03_graph/PrimsMST.java` | $O(E \log V)$ | Minimum Spanning Tree (greedy cut property with PriorityQueue) |
