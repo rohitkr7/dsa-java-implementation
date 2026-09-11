@@ -1,4 +1,4 @@
-package ds_02_stack;
+package ds_03_stack;
 
 /**
  * Custom implementation of a Stack (Last-In-First-Out / LIFO) using a Linked List.

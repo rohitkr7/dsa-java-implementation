@@ -1,4 +1,4 @@
-package ds_03_queue;
+package ds_04_queue;
 
 /**
  * Custom implementation of a Queue (First-In-First-Out / FIFO) using a Singly Linked List.

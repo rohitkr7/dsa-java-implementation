@@ -1,4 +1,4 @@
-package ds_01_linkedList;
+package ds_02_linkedList;
 
 /**
  * Custom implementation of a Singly Linked List from scratch in Java.

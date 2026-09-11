@@ -1,4 +1,4 @@
-package ds_04_hashMap;
+package ds_05_hashMap;
 
 /**
  * Custom implementation of a Hash Map (Hash Table) using Separate Chaining for collision resolution.
