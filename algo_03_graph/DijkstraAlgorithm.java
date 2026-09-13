@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 /**
+ * GFG Reference: https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/
+ * Solution on GFG: https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
  * ============================================================================
  * PROBLEM STATEMENT: DIJKSTRA'S ALGORITHM
  * ============================================================================
