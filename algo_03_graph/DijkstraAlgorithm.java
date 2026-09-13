@@ -74,7 +74,12 @@ public class DijkstraAlgorithm {
             int fromNode = edge[0];
             int toNode = edge[1];
             int weight = edge[2];
+
+            // Note - the given problem input is a directed graph that's why we only need to preserve the exact edges and not the reverse edge
             adj.get(fromNode).add(new int[]{toNode, weight});
+
+            // Below reverse edge entry not required as the input graph is a directed graph but it will be required if the graph is undirected
+            // adj.get(toNode).add(new int[]{fromNode, weight});
         }
 
         // Step 2: Initialize all distances to infinity, source distance to 0
